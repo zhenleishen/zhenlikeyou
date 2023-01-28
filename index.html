@@ -1,10 +1,11 @@
 <!doctype html>
 <html>
 	<head>
+		 <link rel="shortcut  icon" type="image/x-icon" href="1.ico" media="screen"  />
          <meta content="text/html" charset="UTF-8">
          </head>
          <body background="1.jpg" 
-               style="background-repeat:no-repeat
+               style="background-repeat:no-repeat;
                background-attachment:fixed;
                background-size:100% 100%; ">
          </body>
@@ -26,15 +27,15 @@
 	<body>
           <div class="ystop tdtop" id="idtop" style="min-height: 50px; max-height: 300px; width: 100%; vertical-align: top; padding: 5px;">
 
-          <p><font color="red">振哥小黑屋</font>
-          <meta style="width=20,height=10">
+          <p><font color="#8a2be2">振哥小黑屋</font>
+          <meta>
           </div>
 		<canvas width=1080 height=2340 style="background:#000000;" id="canvas"></canvas>
  
 		<script>		
 			var canvas = document.getElementById("canvas");
 			var ctx = canvas.getContext("2d");
-		        var w =width=2430;
+			var w =width=2430;
 			var h =height=2430;
 			canvas.width = w;
 			canvas.height = h;
@@ -50,7 +51,7 @@
 				ctx.fillStyle="rgba(0,0,0,0.05)"
 				ctx.fillRect(0,0,w,h);
 				ctx.font = "600 "+fontSize+"px 微软雅黑";
-				ctx.fillStyle = "#00ff00";
+				ctx.fillStyle = "#00ff51";
  
 				for(var i = 0;i<clos;i++) {
 					var x = i*fontSize;
