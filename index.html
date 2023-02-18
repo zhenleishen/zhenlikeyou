@@ -1,82 +1,38 @@
-<!doctype html>
-<html>
-	<head>
-		 <link rel="shortcut  icon" type="image/x-icon" href="1.ico" media="screen"  />
-         <meta content="text/html" charset="UTF-8">
-         </head>
-         <body background="1.jpg"
-               style="background-repeat:no-repeat;
+<body background="1.jpg" style="background-repeat:no-repeat;
                background-attachment:fixed;
-               background-size:100% 100%; ">
-         </body>
-
-         <img title="振哥小黑屋" src="https://tse2-mm.cn.bing.net/th/id/OIP-C.CR9o6KIqkPhcjbc_vLxv-QHaHa?pid=ImgDet&amp;rs=1" width="70" height="50">
+               background-size:100% 100%; " class="p-0 m-0 h-full font-sans dark"><div class="h-96 align-middle table-cell relative w-full index flex justify-center">
+    <img title="振哥小黑屋" src="https://tse2-mm.cn.bing.net/th/id/OIP-C.CR9o6KIqkPhcjbc_vLxv-QHaHa?pid=ImgDet&amp;rs=1" width="70" height="50">
          <img title="振哥小黑屋" src="https://pic.baike.soso.com/p/20090715/20090715155954-328377367.jpg" width="50" height="40">
 		<title>振哥小黑屋</title>
 		<meta name="keywords" content="示辰.">
 		<meta name="description" content="">
          <meta content="width=device-width, inintial-scale=1.0">
-		<style>
-			body {
-				margin: 0;
-				overflow: hidden;
-			}
-		</style>
-	</head>
-
-	<body>
-         <div class="ystop tdtop" id="idtop" style="min-height: 50px; max-height: 300px; width: 100%; vertical-align: top; padding: 5px;">
-
-          <p><font color="#8a2be2">电影资源</font>
-          <meta>
-          <font color="red">https://vidhub.top/</font>
-          <p><font color="#8a2be2">桌面美化</font>
-          <meta>
-          <font color="red">https://zhutix.com/</font>
-          <p><font color="#8a2be2">软件集合</font>
-          <meta>   
-	  <font color="red">https://www.ghxi.com/</font>
-          <p><font color="#8a2be2">学习资源</font>
-          <meta>
-          <font color="red">https://tuostudy.com/</font>
-
-
-          </p></div>
-		<canvas width=1080 height=2340 style="background:#000000;" id="canvas"></canvas>
-
-		<script>
-			var canvas = document.getElementById("canvas");
-			var ctx = canvas.getContext("2d");
-			var w =width=2430;
-			var h =height=5000;
-			canvas.width = w;
-			canvas.height = h;
-			var fontSize = 14;
-			var clos = Math.floor(w/fontSize);
-			var drops = [];
-			var str = "我喜欢你loveyou";
-			for(var i = 0;i<clos;i++) {
-				drops.push(0);
-			}
- 
-			function drawString() {
-				ctx.fillStyle="rgba(0,0,0,0.05)"
-				ctx.fillRect(0,0,w,h);
-				ctx.font = "600 "+fontSize+"px 微软雅黑";
-				ctx.fillStyle = "#00ff51";
- 
-				for(var i = 0;i<clos;i++) {
-					var x = i*fontSize;
-					var y = drops[i]*fontSize;
-					ctx.fillText(str[Math.floor(Math.random()*str.length)],x,y);
-					if(y>h&&Math.random()>0.99){
-						drops[i] = 0;
-					}
-					drops[i]++;
-				}
-					
-			}
-			setInterval(drawString,50);
-		</script>
-	</body>
-</html>
+    <h2 class="text-red mb-5 mt-4 leading-loose relative w-full text-4x5 md:text-6xl text-center :text-gray-800">
+                             振哥小黑屋
+    </h2>
+            <div class=" text-white">
+          <div class="text-center">
+            <span class="iconfont icon-people "></span> Zhen
+            <span class="iconfont icon-time ml-3"></span> 2023-2-18
+          </div>
+                <div class="mx-auto bg-white dark:bg-gray-800 rounded-md px-10 py-10 md-content mt-8 max-w-4xl tracking-wider md:leading-relaxed sm:leading-normal heti text-gray-800 dark:text-gray-300" id="lightGallery">
+        <h3 id="0" tabindex="-1">电影资源</h3>
+        <p><a href="https://vidhub.top/" target="red">https://vidhub.top/</a>
+           </p>
+        <h3 id="1" tabindex="-1">桌面美化</h3>
+        <p>
+            <a href="https://zhutix.com/" target="_blank">https://zhutix.com/</a>
+        </p>
+        <h3 id="12" tabindex="-1">软件集合</h3>
+          <p>
+        <a href="https://www.ghxi.com/" target="_blank">https://www.ghxi.com/</a>
+          </p>
+       <h3 id="123" tabindex="-1">学习资源</h3>
+      <p>
+         <a href="https://tuostudy.com/" target="_blank">https://tuostudy.com/</a>
+      </p>
+                </div>
+            </div>
+        </div>
+   </h2>
+</body>
