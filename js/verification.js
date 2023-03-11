@@ -8,7 +8,7 @@ $('#login-button').click(function (event) {
         $('.wrapper').addClass('form-success');
         setTimeout(function () {
             location.href = "zhen.html";
-        }, 4000);
+        }, 800);
     } else {
         alert("你的脑子可能不太好使");
     }
